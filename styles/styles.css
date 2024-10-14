@@ -10,14 +10,14 @@ h1 {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 10vh;
+    font-size: 60px;
     margin: -20px;
     margin-left: 20px;
   }
   
   .headings {
     margin: 50px;
-    margin-top: 120px;
+    margin-top: 150px;
      color: white;  
        background-color: grey;
        width: 433px;
@@ -28,3 +28,30 @@ h2 {
     margin-left: 20px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 10px 50px;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(white, grey);
+}
+
+li {
+  padding: 0px 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  float: left;
+  font-size: 26px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
