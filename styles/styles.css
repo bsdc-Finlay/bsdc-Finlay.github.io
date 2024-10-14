@@ -1,0 +1,26 @@
+body {
+    background-image: url("/images/studio.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: grey;
+    height: 100hv;
+}
+
+h1 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10vh;
+    margin: -20px;
+    margin-left: 20px;
+  }
+  
+  .headings {
+    margin: 50px;
+     color: white;  
+     background-color: gray; 
+  }
+
+h2 {
+    margin-left: 40px;
+}
