@@ -17,12 +17,11 @@ h1 {
   
   .headings {
     margin: 50px;
-    margin-top: 150px;
+    margin-top: 80px;
      color: white;  
        background-color: grey;
-       width: 433px;
+       width: 414px;
   }
-
 
 h2 {
     margin-left: 20px;
@@ -40,7 +39,7 @@ li {
   padding: 0px 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   float: left;
-  font-size: 26px;
+  font-size: 43px;
 }
 
 li a {
@@ -53,5 +52,24 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #353131;
+}
+
+footer {
+  font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footeritem {
+  font-size: 1.7vw;
+  padding: 15px 5px;
+  flex-grow: 0;
 }
